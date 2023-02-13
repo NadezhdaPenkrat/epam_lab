@@ -1,4 +1,4 @@
-package com.epam_lab.task1;
+package com.epam_lab.task1_basic;
 
 public class BusinessTrip {
 

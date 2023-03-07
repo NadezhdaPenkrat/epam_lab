@@ -12,7 +12,7 @@ public class Runner {
 
     public static void main(String[] args) throws IOException {
 
-        Path path = Path.of("java/src/in.txt");
+        Path path = Path.of("src/main/java/in.txt");
         try (Scanner scanner = new Scanner(path)) {
             final int PURCHASES_NUMBER = scanner.nextInt();
             Purchase[] purchases = new Purchase[PURCHASES_NUMBER];
